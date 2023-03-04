@@ -7,6 +7,7 @@ package javacalculator;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.GridLayout;
 import java.awt.TextField;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -54,6 +55,9 @@ class clabody extends JFrame{
         
         TextField t1 =new TextField(30);
         p1.add(t1);
+        
+        GridLayout gl= new GridLayout(3,3);
+        p2.setLayout(gl);
         
         
         
