@@ -61,30 +61,39 @@ class clabody extends JFrame{
         p2.setLayout(gl);
         
         Button b1= new Button("1");
+        b1.setBackground(Color.red);
         p2.add(b1);
         
         Button b2= new Button("2");
+        b2.setBackground(Color.blue);
         p2.add(b2);
         
         Button b3= new Button("3");
+        b3.setBackground(Color.gray);
         p2.add(b3);
         
         Button b4= new Button("4");
+        b4.setBackground(Color.orange);
         p2.add(b4);
         
         Button b5= new Button("5");
+        b5.setBackground(Color.DARK_GRAY);
         p2.add(b5);
         
         Button b6= new Button("6");
+        b6.setBackground(Color.PINK);
         p2.add(b6);
         
         Button b7= new Button("7");
+        b7.setBackground(Color.red);
         p2.add(b7);
         
         Button b8= new Button("8");
+        b8.setBackground(Color.darkGray);
         p2.add(b8);
         
         Button b9= new Button("9");
+        b9.setBackground(Color.cyan);
         p2.add(b9);
         
         
