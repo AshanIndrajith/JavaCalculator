@@ -5,7 +5,11 @@
  */
 package javacalculator;
 
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.TextField;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 /**
  *
@@ -37,6 +41,21 @@ class clabody extends JFrame{
         setSize(300,400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
+        
+        
+        BorderLayout bd=new BorderLayout();
+        JPanel p1=new JPanel();
+        p1.setBackground(Color.red);
+        JPanel p2=new JPanel();
+        p2.setBackground(Color.GREEN);
+        
+        add(p1,BorderLayout.NORTH);
+        add(p2,BorderLayout.CENTER);
+        
+        TextField t1 =new TextField(30);
+        p1.add(t1);
+        
+        
         
         
         
