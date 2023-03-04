@@ -6,6 +6,7 @@
 package javacalculator;
 
 import java.awt.BorderLayout;
+import java.awt.Button;
 import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.TextField;
@@ -58,6 +59,37 @@ class clabody extends JFrame{
         
         GridLayout gl= new GridLayout(3,3);
         p2.setLayout(gl);
+        
+        Button b1= new Button("1");
+        p2.add(b1);
+        
+        Button b2= new Button("2");
+        p2.add(b2);
+        
+        Button b3= new Button("3");
+        p2.add(b3);
+        
+        Button b4= new Button("4");
+        p2.add(b4);
+        
+        Button b5= new Button("5");
+        p2.add(b5);
+        
+        Button b6= new Button("6");
+        p2.add(b6);
+        
+        Button b7= new Button("7");
+        p2.add(b7);
+        
+        Button b8= new Button("8");
+        p2.add(b8);
+        
+        Button b9= new Button("9");
+        p2.add(b9);
+        
+        
+        
+        
         
         
         
