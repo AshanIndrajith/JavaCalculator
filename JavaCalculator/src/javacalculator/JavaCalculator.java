@@ -9,6 +9,9 @@ import java.awt.BorderLayout;
 import java.awt.Button;
 import java.awt.Color;
 import java.awt.GridLayout;
+import java.awt.Menu;
+import java.awt.MenuBar;
+import java.awt.MenuItem;
 import java.awt.TextField;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -96,14 +99,30 @@ class clabody extends JFrame{
         b9.setBackground(Color.cyan);
         p2.add(b9);
         
+        MenuBar mb=new MenuBar();
+        setMenuBar(mb);
+        
+        Menu m1=new Menu("File");
+        Menu m2=new Menu("Edit");
+        Menu m3=new Menu("View");
+        mb.add(m1);
+        mb.add(m2);
+        mb.add(m3);
+        
+        MenuItem m_new=new MenuItem("New File");
+        MenuItem m_save=new MenuItem("Save");
+        MenuItem m_Exit=new MenuItem("Exit");
+        m1.add(m_new);
+        m2.add(m_save);
+        m3.add(m_Exit);
+        
+        
+  
         
         
         
         
-        
-        
-        
-        
+   
         
     }
     
