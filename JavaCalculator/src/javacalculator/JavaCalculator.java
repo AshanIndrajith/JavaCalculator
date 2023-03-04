@@ -18,6 +18,8 @@ public class JavaCalculator {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        clabody cal = new clabody();
     
     
     
@@ -32,7 +34,7 @@ class clabody extends JFrame{
         
         setVisible(true);
         setTitle("My Cal");
-        setSize(WIDTH,HEIGHT);
+        setSize(300,400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         
